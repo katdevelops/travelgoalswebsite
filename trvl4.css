@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+}
+
+#wrapper {
+    background-color: #273528;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#wrapper img {
+    margin-top: 10px;
+}
+
+#logo h3 {
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    color: #f7ffe5;
+    position: absolute;
+    top: 25px; /* Adjust the position */
+    left: 35px;
+}
+
+#logo h5 {
+    font-size: 15px;
+    font-family: "Playfair Display", serif;
+    color: #f7ffe5;
+    position: absolute;
+    top: 40px; /* Adjust the position */
+    left: 45px;
+}
+
+#headline {
+    font-size: 20px;
+    color: #f7ffe5;
+    position: absolute;
+    top: 20px; /* Adjust the position */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 110px;    
+    
+}
+.search {
+   width: 450px;
+   height: 40px;
+   border-radius: 40px;
+   border: 2px solid #597445;;
+   outline: none;
+   background: rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur(10px); 
+
+}
+.search-container i {
+    position: absolute;
+    right: 480px;
+    color: #597445;
+}
+#airplane {
+    position: absolute;
+    right: 120px; /* Positioning the airplane icon */
+    top: 30px;
+    color: #f7ffe5;
+}
+#airplane i {
+    font-size: 25px; /* Adjust the size */
+    transition: transform 0.5s ease; /* Smooth rotation */
+}
+
+#airplane:hover i {
+    transform: rotate(-40deg); /* Rotate smoothly on hover */
+    color: black;
+}
+#user{
+    position: absolute;
+    right: 70px; /* Positioning the airplane icon */
+    top: 30px;
+    color: #f7ffe5;
+}
+#user i{
+    font-size: 25px;
+}
+#trending {
+    display:flex;
+    
+}
